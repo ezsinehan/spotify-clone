@@ -12,6 +12,11 @@ export interface UserDetails {
 
 export interface Product {
   id: string;
+  active?: boolean;
+  name?: string;
+  description?: string;
+  image?: string;
+  metadata?: Stripe.Metadata;
 }
 
 export interface Price {

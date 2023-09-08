@@ -18,7 +18,7 @@ const Library = () => {
 
     // Check for subscription
 
-    return useUploadModal.onOpen();
+    return uploadModal.onOpen();
   };
 
   return ( 
